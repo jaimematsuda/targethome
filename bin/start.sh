@@ -1,5 +1,5 @@
 #!/bin/bash
-
+prueba
 NAME="targethome" # Nombre de la aplicación
 DJANGODIR=/home/spart4kus/Proyectos/targethome/targethome # Ruta de la carpeta donde esta la aplicación reemplazar <user> con el nombre de usuario
 SOCKFILE=/home/spart4kus/Proyectos/targethome/run/gunicorn.sock # Ruta donde se creará el archivo de socket unix para comunicarnos
