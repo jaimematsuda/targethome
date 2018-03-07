@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
+bin/
 build/
 develop-eggs/
 dist/
@@ -17,10 +18,12 @@ eggs/
 .eggs/
 lib/
 lib64/
+logs/
 parts/
 sdist/
 var/
 wheels/
+run/
 *.egg-info/
 .installed.cfg
 *.egg
