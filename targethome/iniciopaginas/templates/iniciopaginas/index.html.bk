@@ -1,0 +1,20 @@
+{% extends 'paginawebs/base.html' %}
+{% block content %}
+	<section>
+		<article>
+			{% load static %}
+			<ul class="rslides" id="slider1">
+				<li><img src="{% static 'paginawebs/img/banners/01.png' %}" alt=""></li>
+			  	<li><img src="{% static 'paginawebs/img/banners/02.png' %}" alt=""></li>				  	<li><img src="{% static 'paginawebs/img/banners/03.png' %}" alt=""></li>
+			</ul>
+	</section>
+	<section>
+		<article class="proyectos">{% lorem %}</article>
+		<article class="descripcion"></article>
+		<article class=""></article>
+	</section>
+	<footer>
+		<p>Pie de pagina</p>
+		<p>{% lorem %}</p>
+	</footer>
+{% endblock %}

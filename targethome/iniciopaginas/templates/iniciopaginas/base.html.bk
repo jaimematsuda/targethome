@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}Target Home{% endblock %}</title>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	{% load static %}
+		<link rel="stylesheet" href="{% static 'paginawebs/css/target.css' %}" />
+		<link rel="stylesheet" href="{% static 'paginawebs/css/responsiveslides.css' %}" />
+  		<script src="{% static 'paginawebs/js/responsiveslides.min.js' %}"></script>
+  		<script src="{% static 'paginawebs/js/responsiveslides.js' %}"></script>
+  		
+  	<script>
+	    // You can also use "$(window).load(function() {"
+	   	$(function () {
+
+	      	// Slideshow 1
+	      	$("#slider1").responsiveSlides({
+	        	speed: 800
+	      	});
+	    });
+	 </script>
+</head>
+<body>
+	<header id="header" class="header">
+		<figure class="logotipo">
+			<img src="{% static 'paginawebs/img/logos/Logo_Target.svg' %}" width="160" height="60" alt="Target Home Logo">
+		</figure>
+		<nav class="menu">
+			<ul>
+				<li>INICIO</li>
+				<li>HABITACIONES</li>
+				<li>MINIDEPA</li>
+				<li>RESERVAR</li>
+				<li>FACEBOOK</li>
+			</ul>
+		</nav>	
+	</header>
+	{% block content %}
+	{% endblock %}	
+</body>
+</html>

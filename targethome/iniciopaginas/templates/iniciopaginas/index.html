@@ -1,0 +1,213 @@
+{% extends 'iniciopaginas/base.html' %}
+{% block content %}
+<div class="slider-area">
+    <div class="slider">
+        <div id="bg-slider" class="owl-carousel owl-theme">
+			{% load static %}
+            <div class="item"><img src="{% static 'iniciopaginas/assets/img/slide1/slider-image-1.png' %}" alt="GTA V"></div>
+            <div class="item"><img src="{% static 'iniciopaginas/assets/img/slide1/slider-image-2.png' %}" alt="The Last of us"></div>
+            <div class="item"><img src="{% static 'iniciopaginas/assets/img/slide1/slider-image-3.png' %}" alt="GTA V"></div>
+        </div>
+    </div>
+    <div class="slider-content">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+                <h2>C&eacute;ntrate en lo que es <span style="color:rgb(53,188,105)">importante</span> y gasta <span style="color:rgba(53,188,105,1)">menos</span> en el aquiler</h2>
+                <div class="search-form wow pulse" data-wow-delay="0.8s">
+
+                    <form action="" class=" form-inline">
+                        <div class="radial">
+                            <p>Busco :</p>
+                            <input type="radio" name="seltipo" id="habitacion" checked="checked">
+                            <label for="habitacion">Una </br>Habitaci&oacute;n</label>
+                            <input type="radio" name="seltipo" id="minidepa">
+                            <label for="minidepa">Un </br>MiniDepa</label>
+                        </div>
+                        <button class="btn  toggle-btn" type="button"><i class="fa fa-bars"><span>REGISTRATE</span></i></button>
+
+                        <!-- <button class="btn search-btn" type="submit"><i class="fa fa-search"></i></button> -->
+
+                        <div style="display: none;" class="search-toggle">
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Nombres">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Apellidos">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Telefono">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Correo">
+                            </div>
+                            <!-- <div class="form-group">                                   
+                                <select id="lunchBegins" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="Donde deseas vivir">
+                                    <option>San Miguel</option>
+                                    <option>Comas</option>
+                                </select>
+                            </div> -->
+                            <div class="form-group">                                     
+                                <select id="basic" class="selectpicker show-tick form-control" title="Donde deseas vivir">
+                                    <option>San Miguel</option>
+                                    <option>Comas</option>
+                                </select>
+                            </div>  
+                            <div class="form-group">                                     
+                                <select id="basic" class="selectpicker show-tick form-control" title="Cuántas personas lo ocuparán">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Para cuándo lo desea">
+                            </div>                         
+                            <!-- <button class="btn search-btn prop-btm-sheaerch" type="submit"><i class="fa fa-search"></i></button> -->
+                            <button class="btn search-btn prop-btm-sheaerch " type="submit">REGISTRAR</i></button>  
+
+                        </div>                    
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- property area -->
+<div class="content-area home-area-1 recent-property" style="background-color: #FCFCFC; padding-bottom: 55px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
+                <!-- /.feature title -->
+                <h2>BUSCAR INMUEBLES EN LOS DISTRITOS PRINCIPALES DE LIMA</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="proerty-th">
+                <div class="col-sm-6 col-md-3 p0">
+                    <div class="box-two proerty-item">
+                        <div class="item-thumb">
+                            <a href="property-1.html" ><img src="{% static 'iniciopaginas/assets/img/property/comas.png' %}"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 p0">
+                    <div class="box-two proerty-item">
+                        <div class="item-thumb">
+                            <a href="property-2.html" ><img src="{% static 'iniciopaginas/assets/img/property/sanmiguel.png' %}"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 p0">
+                    <div class="box-two proerty-item">
+                        <div class="item-thumb">
+                            <a href="property-3.html" ><img src="{% static 'iniciopaginas/assets/img/property/losolivos.png' %}"></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 p0">
+                    <div class="box-two proerty-item">
+                        <div class="item-thumb">
+                            <a href="property-1.html" ><img src="{% static 'iniciopaginas/assets/img/property/carabayllo.png' %}"></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-3 p0">
+                    <div class="box-two proerty-item">
+                        <div class="item-thumb">
+                            <a href="property-3.html" ><img src="{% static 'iniciopaginas/assets/img/property/otros.png' %}"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Welcome area -->
+<div class="Welcome-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 Welcome-entry  col-sm-12">
+                <div class="col-md-5 col-sm-6 col-xs-12">
+                    <div  class="welcome_services wow fadeInRight" data-wow-delay="0.3s" data-wow-offset="100">
+                        <div class="row">
+                            <div class="col-xs-9 m-padding">
+                                <div class="welcome-estate">
+                                    <div class="welcome-icon">
+                                        <i class="pe-7s-home pe-4x"></i>
+                                    </div>
+                                    <p>Target Home, es un Proyecto del Grupo CR. digirgido a cubrir las necesidades, de vivienda de personas, que desean independizarse o vivir cerca a su lugar de trabajo, estudios. Pero que no cuentan con los recursos para alquilar un departamento o casa completa. Pero que a su vez buscan las comodidades y confor de un HOGAR.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--TESTIMONIALS -->
+<div class="testimonial-area recent-property" style="background-color: #FCFCFC; padding-bottom: 15px;">
+    <div class="container">
+        <div class="row">
+            <div class="row testimonial">
+                <div class="col-md-12">
+                    <div id="testimonial-slider">
+                        <div class="item">
+                            <div class="client-text">                                
+                                <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                            </div>
+                            <div class="client-face wow fadeInRight" data-wow-delay=".9s"> 
+                                <img src="assets/img/client-face1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client-text">                                
+                                <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                            </div>
+                            <div class="client-face">
+                                <img src="assets/img/client-face2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client-text">                                
+                                <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                            </div>
+                            <div class="client-face">
+                                <img src="assets/img/client-face1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client-text">                                
+                                <p>Nulla quis dapibus nisl. Suspendisse llam sed arcu ultried arcu ultricies !</p>
+                                <h4><strong>Ohidul Islam, </strong><i>Web Designer</i></h4>
+                            </div>
+                            <div class="client-face">
+                                <img src="assets/img/client-face2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}
