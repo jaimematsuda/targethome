@@ -1,11 +1,11 @@
-{% extends 'paginawebs/base.html' %}
+{% extends 'iniciopaginas/base.html' %}
 {% block content %}
 	<section>
 		<article>
 			{% load static %}
 			<ul class="rslides" id="slider1">
-				<li><img src="{% static 'paginawebs/img/banners/01.png' %}" alt=""></li>
-			  	<li><img src="{% static 'paginawebs/img/banners/02.png' %}" alt=""></li>				  	<li><img src="{% static 'paginawebs/img/banners/03.png' %}" alt=""></li>
+				<li><img src="{% static 'iniciopaginas/img/banners/01.png' %}" alt=""></li>
+			  	<li><img src="{% static 'iniciopaginas/img/banners/02.png' %}" alt=""></li>				  	<li><img src="{% static 'iniciopaginas/img/banners/03.png' %}" alt=""></li>
 			</ul>
 	</section>
 	<section>
