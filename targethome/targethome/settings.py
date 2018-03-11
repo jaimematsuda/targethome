@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'targethomedb',
         'USER': 'targethome',
         'PASSWORD': 'zw57mwNKTT',
-        'HOST': 'awstargetdb.cc9cpybtjsis.us-west-2.rds.amazonaws.com'
+        'HOST': 'awstargetdb.cc9cpybtjsis.us-west-2.rds.amazonaws.com',
         # 'HOST': '127.0.0.1',
         'PORT': '5432',
     }
